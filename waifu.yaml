@@ -24,23 +24,6 @@
   - Takahashi "TakaMina" Minami
   - Watabane "Mayuyu" Mayu
   - Yokomizo Makoto
-'Aku no Hana':
-  characters:
-  - Nakamura Sawa
-  - Saeki Nanako
-  - Tokiwa Aya
-  - Kinoshita Ai
-'Aikatsu':
-  characters:
-  - Hoshimiya Ichigo
-  - Kiriya Aoi
-  - Kanzaki Mizuki
-  - Arisugawa Otome
-  - Toudou Yurika
-  - Kitaouji Sakura
-  - Ichinose Kaede
-  - Otoshiro Seira
-  - Saegusa Kii
 'ARIA':
   characters:
   - Alice Carroll
@@ -55,6 +38,17 @@
   - Haruno Hime
   - Katase Mayoi
   - Miniwa Tsumiki
+'Aikatsu':
+  characters:
+  - Arisugawa Otome
+  - Hoshimiya Ichigo
+  - Ichinose Kaede
+  - Kanzaki Mizuki
+  - Kiriya Aoi
+  - Kitaouji Sakura
+  - Otoshiro Seira
+  - Saegusa Kii
+  - Toudou Yurika
 'Akane-iro ni Somaru Saka':
   characters:
   - Ayanokouji Karen
@@ -74,6 +68,12 @@
   - Shiruko
   - Tenkuji Najimi
   - Yell
+'Aku no Hana':
+  characters:
+  - Kinoshita Ai
+  - Nakamura Sawa
+  - Saeki Nanako
+  - Tokiwa Aya
 'Amagami SS':
   characters:
   - Ayatsuji Tsukasa
@@ -121,14 +121,14 @@
   - Moriyama Shiemi
 'Aoki Hagane no Arpeggio':
   characters:
-  - Iona
-  - Watanuki Iori
+  - Haruna
   - Hazumi Shizuka
   - Hyuuga
-  - Takao
-  - Kongou
-  - Haruna
+  - Iona
   - Kirishima
+  - Kongou
+  - Takao
+  - Watanuki Iori
 'Aquarion Evol':
   characters:
   - MIX
@@ -247,11 +247,11 @@
   - Felli Loss
 'Chuunibyou Demo Koi ga Shitai!':
   characters:
-  - Takanashi Rikka
-  - Shichimiya Satone
-  - Nibutani Shinka
-  - Tsuyuri Kumin
   - Dekomori Sanae
+  - Nibutani Shinka
+  - Shichimiya Satone
+  - Takanashi Rikka
+  - Tsuyuri Kumin
 'Code Geass':
   characters:
   - C.C.
@@ -264,15 +264,6 @@
   characters:
   - Suou Pavlichenko
   - Yin
-'Date A Live': 
-  characters:
-  - Yatogami Touka
-  - Tobiichi Origami
-  - Itsuka Kotori
-  - Yoshino
-  - Tokisaki Kurumi
-  - Yamai Kaguya
-  - Yamai Yuzuru
 'Da Capo II':
   characters:
   - Amakase Minatsu
@@ -281,22 +272,31 @@
   - Shirakawa Nanaka
   - Tsukishima Koko
   - Yukimura Anzu
+'Danganronpa: Trigger Happy Havoc':
+  characters:
+  - Asahina Aoi
+  - Celestia Ludenberck
+  - Enoshima Junko
+  - Fujisaki Chihiro
+  - Fukawa Touko
+  - Ikusaba Mukuro
+  - Kirigiri Kyouko
+  - Maizono Sayaka
+  - Ougami Sakura
 'Dantarian no Shoka':
   characters:
   - Dalian
   - Flamberge
   - Rasiel
-'Danganronpa: Trigger Happy Havoc':
+'Date A Live':
   characters:
-  - Kirigiri Kyouko
-  - Fukawa Touko
-  - Asahina Aoi
-  - Maizono Sayaka
-  - Fujisaki Chihiro
-  - Celestia Ludenberck
-  - Ougami Sakura
-  - Enoshima Junko
-  - Ikusaba Mukuro
+  - Itsuka Kotori
+  - Tobiichi Origami
+  - Tokisaki Kurumi
+  - Yamai Kaguya
+  - Yamai Yuzuru
+  - Yatogami Touka
+  - Yoshino
 'Denpa Onna to Seishun Otoko':
   characters:
   - Hoshimiya Yashiro
@@ -308,14 +308,14 @@
   - Haibara Ai
 'Doctor Who':
   characters:
-  - The Doctor (tennant)
-  - The Doctor (matt smith)
-  - Rose Tyler
-  - Martha Stewart
-  - Donna Noble
   - Amelia Pond
-  - River Song
   - Clara Oswin Oswald
+  - Donna Noble
+  - Martha Stewart
+  - River Song
+  - Rose Tyler
+  - The Doctor (matt smith)
+  - The Doctor (tennant)
 'Dog Days':
   characters:
   - Amelita Tremper
@@ -335,9 +335,9 @@
   characters:
   - Aida Mana
   - Hishikawa Rikka
-  - Yotsuba Arisu
   - Kenzaki Makoto
   - Madoka Aguri
+  - Yotsuba Arisu
 'Double-J':
   characters:
   - Arima Sayo
@@ -359,18 +359,18 @@
   - Hisau Maiya
   - Irisviel von Einzbern
   - Tohsaka Aoi
+'Fate/kaleid liner Prisma Illya':
+  characters:
+  - Illyasviel von Einzbern
+  - Luviagelita Edelfelt
+  - Miyu Edelfelt
+  - Tousaka Rin
 'Fate/stay night':
   characters:
   - Illyasviel von Einzbern
   - Saber
   - Tousaka Rin
-'Fate/kaleid liner Prisma Illya':
-  characters:
-  - Illyasviel von Einzbern
-  - Miyu Edelfelt
-  - Tousaka Rin
-  - Luviagelita Edelfelt
-  'Fortune Arterial: Akai Yakusoku':
+'Fortune Arterial: Akai Yakusoku':
   characters:
   - Amaike Shizuko
   - Kuze Kiriha
@@ -397,87 +397,88 @@
 'Fullmetal Alchemist':
   characters:
   - Winry Rockbell
-'Galilei Donna':
-  characters:
-  - Hozuki Ferrari
-  - Kazuki Ferrari
-  - Hazuki Ferrari
-  - Anna Hendrix
 'Ga-rei Zero':
   characters:
   - Isayama Yomi
   - Tsuchimiya Kagura
+'Galilei Donna':
+  characters:
+  - Anna Hendrix
+  - Hazuki Ferrari
+  - Hozuki Ferrari
+  - Kazuki Ferrari
 'Gatchaman Crowds':
   characters:
   - Ichinose Hajime
-  - Utsutsu
   - Ninomiya Rui
+  - Utsutsu
 'Gatekeepers':
   characters:
   - Ikusawa Ruriko
 'Genshiken Nidaime':
   characters:
-  - Kasukabe Saki
-  - Ouno Kanako
-  - Ogiue Chika
-  - Susanna Hopkins
-  - Yoshitake Rika
-  - Yajima Mirei
   - Hato Kenjirō
+  - Kasukabe Saki
+  - Ogiue Chika
+  - Ouno Kanako
+  - Susanna Hopkins
+  - Yajima Mirei
+  - Yoshitake Rika
 'Girls Und Panzer':
   characters:
-  - Nishizumi Miho
-  - Takebe Saori
-  - Isuzu Hana
   - Akiyama Yukari
-  - Reizei Mako
-  - Kadotani Anzu
-  - Kawashima Momo
-  - Koyama Yuzu
-  - Isobe Noriko
-  - Kawanishi Shinobu
-  - Kondou Taeko
-  - Sasaki Akebi
-  - Matsumoto Riko
-  - Sugiyama Kiyomi
-  - Suzuki Takako
-  - Nogami Takeko
-  - Sawa Azusa
-  - Yamagou Ayumi
-  - Sakaguchi Karina
-  - Maruyama Saki
-  - Utsugi Yūki
-  - Ouno Aya
-  - Sono Midoriko
-  - Gotou Moyoko
-  - Konparu Nozomi
-  - Nekonyaa
-  - Momogaa
-  - Piyotan
-  - Nakajima Satoko
-  - Suzuki
-  - Hoshino
-  - Tsuchiya
-  - Nishizumi Maho
-  - Itsumi Erika
-  - Darjeeling
-  - Assam
-  - Orange Pekoe
-  - Kay
-  - Naomi
   - Alisa
-  - Katyusha 
-  - Nonna 
-  - Anchovie 
-  - Carpaccio 
+  - Anchovie
+  - Assam
+  - Carpaccio
+  - Darjeeling
+  - Gotou Moyoko
+  - Hoshino
+  - Isobe Noriko
+  - Isuzu Hana
+  - Itsumi Erika
+  - Kadotani Anzu
+  - Katyusha
+  - Kawanishi Shinobu
+  - Kawashima Momo
+  - Kay
+  - Kondou Taeko
+  - Konparu Nozomi
+  - Koyama Yuzu
+  - Maruyama Saki
+  - Matsumoto Riko
+  - Momogaa
+  - Nakajima Satoko
+  - Naomi
+  - Nekonyaa
+  - Nishizumi Maho
+  - Nishizumi Miho
+  - Nogami Takeko
+  - Nonna
+  - Orange Pekoe
+  - Ouno Aya
+  - Piyotan
+  - Reizei Mako
+  - Sakaguchi Karina
+  - Sasaki Akebi
+  - Sawa Azusa
+  - Sono Midoriko
+  - Sugiyama Kiyomi
+  - Suzuki
+  - Suzuki Takako
+  - Takebe Saori
+  - Tsuchiya
+  - Utsugi Yūki
+  - Yamagou Ayumi
+'Golden Time':
+  characters:
+  - Kaga Kouko
+  - Linda
+  - Oka Chinami
 'Gosick':
   characters:
   - Avril Bradley
   - Victorique de Blois
-'Golden Time':
-  - Kaga Kouko
-  - Linda
-  - Oka Chinami
 'Guilty Crown':
   characters:
   - Kanon Kusama
@@ -534,9 +535,9 @@
   - Watarase Jun
 'Hataraku Maou-sama':
   characters:
-  - Yusa Emi
   - Kamazuki Suzuno
-  - Sasaki Chiho
+  - Kamazuki Suzuno
+  - Yusa Emi
 'Hayate no Gotoku!':
   characters:
   - Aizawa Sakuya
@@ -549,10 +550,10 @@
   - Segawa Izumi
 'Hentai Ouji to Warawanai Neko':
   characters:
-  - Tsutsukakushi Tsukiko
   - Azuki Azusa
-  - Tsutsukakushi Tsukushi
   - Emanuela Pollarola
+  - Tsutsukakushi Tsukiko
+  - Tsutsukakushi Tsukushi
 'Hidamari Sketch':
   characters:
   - Hiro
@@ -678,15 +679,16 @@
   - Nine Violet
   - Tesla Violet
 'Kakumeiki Valvrave':
+  characters:
   - ERU ERUFU
-  - Sashinami Shouko
-  - Rukino Saki
-  - Sakurai Aina
-  - Nobi Marie
-  - Renboukoji Akira
-  - Ninomiya Takahi
   - Kitagawa Iori
   - Kriemhild
+  - Ninomiya Takahi
+  - Nobi Marie
+  - Renboukoji Akira
+  - Rukino Saki
+  - Sakurai Aina
+  - Sashinami Shouko
 'Kami Nomi zo Shiru Sekai':
   characters:
   - Aoyama Mio
@@ -710,6 +712,7 @@
   - Takahara Ayumi
   - Uemoto Sumire
 'Kami-sama no Inai Nichiyoubi':
+  characters:
   - Ai Asutin
   - Scar
   - Ulla Eulesse Hecmatika
@@ -744,10 +747,10 @@
   - Ryougi Shiki
 'Kill La Kill':
   characters:
-  - Matoi Ryuuko
+  - Jakuzure Nonon
   - Kiryuuin Satsuki
   - Mankanshoku Mako
-  - Jakuzure Nonon
+  - Matoi Ryuuko
 'Kill Me Baby':
   characters:
   - Goshiki Agiri
@@ -797,6 +800,12 @@
   - Sarasvati
   - Seraphim
   - Takeshi "Chris" Kurusu
+'Kyoukai No Kanata':
+  characters:
+  - Inami Sakura
+  - Kuriyama Mirai
+  - Nase Mitsuki
+  - Shindou Ai
 'Kyoukai Senjou No Horizon':
   characters:
   - Adele Balfetto
@@ -818,12 +827,6 @@
   - Mishima Akane
   - Sangou Shizuku
   - Senou Natsuru
-'Kyoukai No Kanata':
-  characters:
-  - Kuriyama Mirai
-  - Nase Mitsuki
-  - Shindou Ai
-  - Inami Sakura
 'Lagrange: The Flower of Rin-ne':
   characters:
   - Lan
@@ -840,34 +843,35 @@
   - Sasasegawa Sasami
   - Tokido Saya
 'Log Horizon':
+  characters:
   - Akatsuki
-  - Minori
+  - Henrietta
   - Isuzu
-  - Marielle 
-  - Henrietta 
-  - Serara 
+  - Marielle
+  - Minori
+  - Serara
 'Long Live The Queen':
   characters:
-  - Elodie, Crown Princess
   - Chocolates
-'Love Live':
-  characters:
-  - Kousaka Honoka
-  - Sonoda Umi
-  - Minami Kotori
-  - Yazawa Niko
-  - Ayase Eri
-  - Toujou Nozomi
-  - Nishikino Maki
-  - Koizumi Hanayo
-  - Hoshizora Rin
+  - Elodie, Crown Princess
 'Love Lab':
   characters:
+  - Enomoto Yuiko
   - Kurahashi Riko
   - Maki Natsuo
-  - Tanahashi Suzune
-  - Enomoto Yuiko
   - Mizushima Sayori
+  - Tanahashi Suzune
+'Love Live':
+  characters:
+  - Ayase Eri
+  - Hoshizora Rin
+  - Koizumi Hanayo
+  - Kousaka Honoka
+  - Minami Kotori
+  - Nishikino Maki
+  - Sonoda Umi
+  - Toujou Nozomi
+  - Yazawa Niko
 'Lucky Star':
   characters:
   - Hiiragi Kagami
@@ -888,9 +892,9 @@
 'Magi':
   characters:
   - Morgiana
-  - Yamraiha
   - Ren Hakuei
   - Ren Kougyoku
+  - Yamraiha
 'Mahou Sensei Negima!':
   characters:
   - Evangeline A.K. McDowell
@@ -933,14 +937,14 @@
   - Manyuu Chifusa
   - Manyuu Kagefusa
   - Sayama Ouka
-'Maoyuu Maou Yuusha'
+'Maoyuu Maou Yuusha':
   characters:
+  - Big Sister Maid
+  - Chief Maid
+  - Little Sister Maid
   - Maou
   - Onna Kishi
   - Onna Mahoutsukai
-  - Chief Maid
-  - Little Sister Maid
-  - Big Sister Maid
 'Maria + Holic':
   characters:
   - Kiri Nanami
@@ -1049,22 +1053,22 @@
   - Shoryuu Asuka Langley
 'Neptune: The Animation':
   characters:
+  - Abnes
+  - Arfoire
+  - Blanc
+  - Compa
+  - Histoire
+  - IF
+  - Nepgear
   - Neptune
   - Noire
-  - Blanc
-  - Vert
-  - Compa
-  - IF
-  - Histoire
-  - Arfoire
-  - Plutia
-  - Nepgear
-  - Uni
-  - Rom
-  - Ram
   - Peashy
-  - Abnes
+  - Plutia
+  - Ram
   - Rei Ryghts
+  - Rom
+  - Uni
+  - Vert
 'Nichijou':
   characters:
   - Aioi Yuuko
@@ -1084,10 +1088,10 @@
   - Nogizaka Haruka
 'Non Non Biyori':
   characters:
-  - Miyauchi Renge
   - Ichijou Hotaru
-  - Koshigaya Natsumi
   - Koshigaya Komari
+  - Koshigaya Natsumi
+  - Miyauchi Renge
 'Nyan Koi!':
   characters:
   - Kirishima Akari
@@ -1110,20 +1114,20 @@
   - Ryuuguu Otohime
   - Tsurugaya Otsuu
   - Usami Mimi
+'Ore no Nounai Sentakushi ga, Gakuen Rabu Kome o Zenryoku de Jama Shiteiru':
+  characters:
+  - Chocolat
+  - Douraku Utage
+  - Hakoniwa Yuragi
+  - Kokubyakuin Seira
+  - Ouka Yuuouji
+  - Reikadou Ayame
+  - Yawakaze Konagi
+  - Yukihira Furano
 'Ore no imouto konna ni kawaii wake ga nai':
   characters:
   - Kousaka Kirino
   - Tamura Minami
-'Ore no Nounai Sentakushi ga, Gakuen Rabu Kome o Zenryoku de Jama Shiteiru':
-  characters:
-  - Chocolat 
-  - Yukihira Furano
-  - Ouka Yuuouji
-  - Kokubyakuin Seira
-  - Yawakaze Konagi
-  - Reikadou Ayame
-  - Douraku Utage
-  - Hakoniwa Yuragi
 'Oretachi ni Tsubasa wa Nai':
   characters:
   - Haneda Kobato
@@ -1137,10 +1141,10 @@
   - Yoneda Yu
 'Outbreak Company: Moeru Shinryakusha':
   characters:
+  - Elbia Hanaiman
+  - Koganuma Minori
   - Myucel Foaran
   - Petralka Anne Eldant III
-  - Koganuma Minori
-  - Elbia Hanaiman
 'Pandora Hearts':
   characters:
   - Alice
@@ -1155,11 +1159,6 @@
   - Takanashi Miu
   - Takanashi Sora
   - Takanashi Yuri
-'Psycho-Pass':
-  characters:
-  - Tsunemori Akane
-  - Kunizuka Yayoi
-  - Karanomori Shion
 'Persona 4':
   characters:
   - Amagi Yukiko
@@ -1172,20 +1171,25 @@
   - Shirogane Naoto
 'Photokano':
   characters:
-  - Niimi Haruka
-  - Sanehara Hikari
-  - Muroto Aki
-  - Masaki Nonoka
-  - Sakura Mai
-  - Yunoki Rina
-  - Misumi Tomoe
   - Maeda Kanon
+  - Masaki Nonoka
+  - Misumi Tomoe
+  - Muroto Aki
+  - Niimi Haruka
+  - Sakura Mai
+  - Sanehara Hikari
+  - Yunoki Rina
 'Princess Lover!':
   characters:
   - Charlotte Hazelrink
   - Fujikura Yuu
   - Houjouin Seika
   - Sylvie van Hossen
+'Psycho-Pass':
+  characters:
+  - Karanomori Shion
+  - Kunizuka Yayoi
+  - Tsunemori Akane
 'Puella Magi Madoka Magica':
   characters:
   - Akemi Homura
@@ -1196,21 +1200,15 @@
 'Razor Ramon Sumitani':
   characters:
   - Hard Gay
+'Red Data Girl':
+  characters:
+  - Souda Mayuri
+  - Suzuhara Izumiko
 'Rinne no Lagrange':
   characters:
   - Fin E Ld Si Laffinty
   - Kyouno Madoka
   - Muginami
-'Red Data Girl':
-  characters:
-  - Suzuhara Izumiko
-  - Souda Mayuri
-'Robotics;Notes':
-  characters:
-  - Senomiya Akiho
-  - Kojirou Frau "Furugouri Kona"
-  - Daitoku Junna
-  - Yukifune Airi
 'Ro-Kyu-Bu!':
   characters:
   - Hakamada Hinata
@@ -1220,6 +1218,12 @@
   - Misawa Maho
   - Nagatsuka Saki
   - Takamura Mihoshi
+'Robotics;Notes':
+  characters:
+  - Daitoku Junna
+  - Kojirou Frau "Furugouri Kona"
+  - Senomiya Akiho
+  - Yukifune Airi
 'Rosario + Vampire':
   characters:
   - Akashiya Moka
@@ -1238,15 +1242,13 @@
   - Suiseiseki
 'Sacred Seven':
   characters:
-  - Shiina Mashiro
   - Aoyama Nanami
+  - Hase Kanna
   - Kamiigusa Misaki
   - Kanda Yuuko
   - Rita Ainsworth
-  - Hase Kanna
-'Sakurasou no Pet na Kanojo':
-  characters:
   - Ruri Aiba
+  - Shiina Mashiro
 'Saki':
   characters:
   - Amae Koromo
@@ -1352,26 +1354,26 @@
   - Tachibana Hibiki
 'Senran Kagura':
   characters:
-  - Asuka 
-  - Ikaruga 
-  - Katsuragi 
-  - Yagyu 
-  - Hibari 
-  - Homura 
-  - Yomi 
-  - Hikage 
-  - Mirai 
-  - Haruka 
-  - Miyabi 
-  - Imu 
-  - Murasaki 
-  - Ryobi 
-  - Ryona 
-  - Yumi 
-  - Murakumo 
-  - Yozakura 
-  - Shiki 
-  - Minori 
+  - Asuka
+  - Haruka
+  - Hibari
+  - Hikage
+  - Homura
+  - Ikaruga
+  - Imu
+  - Katsuragi
+  - Minori
+  - Mirai
+  - Miyabi
+  - Murakumo
+  - Murasaki
+  - Ryobi
+  - Ryona
+  - Shiki
+  - Yagyu
+  - Yomi
+  - Yozakura
+  - Yumi
 'Shakugan no Shana':
   characters:
   - Hecate
@@ -1386,6 +1388,13 @@
   characters:
   - Chiaki
   - Fumika
+'Shingeki no Kyojin':
+  characters:
+  - Annie Leonhart
+  - Krista Lenz
+  - Mikasa Ackerman
+  - Sasha Blouse
+  - Ymir
 'Shinryaku! Ika Musume':
   characters:
   - Aizawa Chizuru
@@ -1394,15 +1403,8 @@
   - Nagatsuki Sanae
 'Shinsekai Yori':
   characters:
-  - Watanabe Saki
   - Akizuki Maria
-'Shingeki no Kyojin':
-  characters:
-  - Mikasa Ackerman
-  - Annie Leonhart
-  - Sasha Blouse
-  - Krista Lenz
-  - Ymir
+  - Watanabe Saki
 'Shuffle!':
   characters:
   - Fuyou Kaede
@@ -1464,26 +1466,13 @@
   - Kiryuu Moeka
   - Makise Kurisu
   - Shiina Mayuri
-'The Culture':
+'Strike The Blood':
   characters:
-  - Meatfucker
-'Strike the blood':
-  characters:
-  - Himeragi Yukina
-  - Kirasaka Sayaka
   - Aiba Asagi
   - Akatsuki Nagisa
+  - Himeragi Yukina
   - Kanase Kanon
-'Tokurei Sochi Dantai Stella Jo-Gakuin Kōtō-ka C3bu':
-  characters:
-  - Yamato Yura
-  - Kashima Sonora
-  - Kirishima Rento
-  - Hatsuse Karira
-  - Mutsu Honoka
-  - Hinata Yachiyo
-  - Haruna Rin
-  - Seto Aoi
+  - Kirasaka Sayaka
 'Strike Witches':
   characters:
   - Charlotte E. Yeager
@@ -1497,19 +1486,20 @@
   - Perrine-H. Clostermann
   - Sakamoto Mio
   - Sanya V. Litvyak
-'Suzumiya Haruhi no Yuutsu':
-  characters:
-  - Suzumiya Haruhi
-  - Tsuruya
-  - Asahina Mikuru
-  - Nagato Yuki
 'Suisei no Garugantia':
+  characters:
   - Amy
   - Bellows
-  - Saaya
-  - Melty
   - Lukkage
   - Mayta
+  - Melty
+  - Saaya
+'Suzumiya Haruhi no Yuutsu':
+  characters:
+  - Asahina Mikuru
+  - Nagato Yuki
+  - Suzumiya Haruhi
+  - Tsuruya
 'Sword Art Online':
   characters:
   - Asada "Sinon" Shino
@@ -1538,6 +1528,12 @@
   - Otonashi Kotori
   - Shijou Takane
   - Takatsuki Yayoi
+'Tamako Market':
+  characters:
+  - Asagiri Shiori
+  - Kitashirakawa Tamako
+  - Makino Kanna
+  - Tokiwa Midori
 'Tamayura ~hitotose~':
   characters:
   - Hanawa Kaoru
@@ -1547,12 +1543,6 @@
   - Sakurada Maon
   - Sawatari Fuu
   - Shihomi Riho
-'Tamako Market':
-  characters:
-  - Kitashirakawa Tamako
-  - Tokiwa Midori
-  - Makino Kanna
-  - Asagiri Shiori
 'Tantei Opera Milky Holmes':
   characters:
   - Cordelia Glauca
@@ -1584,46 +1574,51 @@
 'Tengen Toppa Gurren Lagann':
   characters:
   - Yoko Littner
+'The Culture':
+  characters:
+  - Meatfucker
 'To Aru Kagaku no Railgun':
   characters:
+  - Frenda
   - Saten Ruiko
   - Uiharu Kazari
 'To Aru Majutsu no Index':
   characters:
   - Index Librorum Prohibitorum
+  - Last Order
+  - Laura Stuart
   - Misaka Mikoto
+  - Misaka10032
+  - Mugino Shizuri
+  - Sherry Cromwell
   - Shirai Kuroko
 'To Love-Ru':
   characters:
+  - Konjiki no Yami
   - Kotegawa Yui
   - Yuuki Mikan
-'To aru kagaku no railgun':
+'Tokurei Sochi Dantai Stella Jo-Gakuin Kōtō-ka C3bu':
   characters:
-  - Frenda
-'To aru majutsu no Index':
-  characters:
-  - Misaka10032
-'To aru majutsu no index':
-  characters:
-  - Last Order
-  - Laura Stuart
-  - Mugino Shizuri
-  - Sherry Cromwell
+  - Haruna Rin
+  - Hatsuse Karira
+  - Hinata Yachiyo
+  - Kashima Sonora
+  - Kirishima Rento
+  - Mutsu Honoka
+  - Seto Aoi
+  - Yamato Yura
 'Tokyo Ravens':
   characters:
-  - Tsuchimikado Natsume
   - Dairenji Suzuka
   - Kon
   - Kurahashi Kyouko
-'To-Love Ru':
+  - Tsuchimikado Natsume
+'Tonari no Kaibutsu-kun':
   characters:
-  - Konjiki no Yami
-'Tonari no Kaibutsu-kun'"
-  characters:
+  - Miyami Yuu
   - Mizutani Shizuku
   - Natsume Asako
   - Oushima Chizuru
-  - Miyami Yuu
   - Yamaguchi Iyo
 'Toradora!':
   characters:
@@ -1669,9 +1664,9 @@
   - Ushiromiya Maria
 'Unbreakable Machine-doll':
   characters:
-  - Yaya
   - Charlotte Belew
   - Frey
+  - Yaya
 'Upotte!!':
   characters:
   - AR-18 "Ichihachi"
@@ -1693,20 +1688,20 @@
 'Utawarerumono':
   characters:
   - Eruruu
-'Vividred Operation':
-  characters:
-  - Isshiki Akane
-  - Futaba Aoi
-  - Saegusa Wakaba
-  - Shinomiya Himawari
-  - Kuroki Rei
-  - Isshiki Momo
 'VOCALOID':
   characters:
   - Hatsune Miku
   - Kagamine Rin
   - 'Megpoid: Gumi'
   - Megurine Luka
+'Vividred Operation':
+  characters:
+  - Futaba Aoi
+  - Isshiki Akane
+  - Isshiki Momo
+  - Kuroki Rei
+  - Saegusa Wakaba
+  - Shinomiya Himawari
 'Watashi ga Motenai no wa dō Kangaetemo Omaera ga Warui!':
   characters:
   - Kuroki Tomoko
@@ -1729,15 +1724,15 @@
   - Yamada Aoi
 'Yahari Ore no Seishun Rabu Kome wa Machigatteiru':
   characters:
-  - Yukinoshita Yukino
-  - Yuigahama Yui
-  - Totsuka Saika
-  - Miura Yumiko
   - Ebina Hina
-  - Kawasaki Saki
-  - Sagami Minami
   - Hikigaya Komachi
+  - Kawasaki Saki
+  - Miura Yumiko
+  - Sagami Minami
+  - Totsuka Saika
+  - Yuigahama Yui
   - Yukinoshita Haruno
+  - Yukinoshita Yukino
 'Yosuga no Sora':
   characters:
   - Amatsume Akira
@@ -1764,22 +1759,23 @@
   - Sugiura Ayano
   - Toshinou Kyouko
   - Yoshikawa Chinatsu
-'Yuyushiki':
-  - Nonohara Yuzuko
-  - Ichii Yui
-  - Hinata Yukari
-  - Aikawa Chiho
-  - Okano Kei
-  - Hasegawa Fumi
 'Yuusha ni Narenakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita':
   characters:
-  - Fino Bloodstone
   - Airi Ortinet
-  - Seara August
-  - Nova Luminous
-  - Lore Beriferal
   - Elsa Crucial
+  - Fino Bloodstone
   - Lamdimia de Accimemor
+  - Lore Beriferal
+  - Nova Luminous
+  - Seara August
+'Yuyushiki':
+  characters:
+  - Aikawa Chiho
+  - Hasegawa Fumi
+  - Hinata Yukari
+  - Ichii Yui
+  - Nonohara Yuzuko
+  - Okano Kei
 'Zero no Tsukaima':
   characters:
   - "Louise Valli\u00e8re"
