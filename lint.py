@@ -1,8 +1,17 @@
+import sys
 import unittest
+from functools import partial, reduce
 import yaml
 import yaml.constructor
 
 # why, pyyaml devs..
+
+IS_PY2K = sys.version_info < (3, 0)
+
+if IS_PY2K:
+    import codecs
+    open = codecs.open
+
 
 try:
     # included in standard lib from Python 2.7
@@ -13,42 +22,38 @@ except ImportError:
     from ordereddict import OrderedDict
 
 
-class OrderedDictYAMLLoader(yaml.Loader):
-    """
-    A YAML loader that loads mappings into ordered dictionaries.
-    """
-    # From http://stackoverflow.com/questions/5121931/in-python-how-can-you-load-yaml-mappings-as-ordereddicts
+def _comp_apply(f, g, *args, **kwargs):
+    return f(g(*args, **kwargs))
 
+
+def compose(*fx):
+    return reduce(partial(partial, _comp_apply), fx)
+
+
+class YAMLLoader(yaml.Loader):
     def __init__(self, *args, **kwargs):
-        yaml.Loader.__init__(self, *args, **kwargs)
-
-        self.add_constructor(u'tag:yaml.org,2002:map', type(self).construct_yaml_map)
-        self.add_constructor(u'tag:yaml.org,2002:omap', type(self).construct_yaml_map)
-
-    def construct_yaml_map(self, node):
-        data = OrderedDict()
-        yield data
-        value = self.construct_mapping(node)
-        data.update(value)
-
-    def construct_mapping(self, node, deep=False):
-        if isinstance(node, yaml.MappingNode):
-            self.flatten_mapping(node)
-        else:
-            raise yaml.constructor.ConstructorError(None, None,
-                'expected a mapping node, but found %s' % node.id, node.start_mark)
-
-        mapping = OrderedDict()
+        object_pairs_hook = kwargs.pop('object_pairs_hook', None)
+        super(YAMLLoader, self).__init__(*args, **kwargs)
+        if object_pairs_hook is not None:
+            self._object_pairs_hook = object_pairs_hook
+            self.add_constructor(u'tag:yaml.org,2002:map',
+                    compose(object_pairs_hook, self.__map_yielder))
+            self.add_constructor(u'tag:yaml.org,2002:omap',
+                    compose(object_pairs_hook, self.__map_yielder))
+    @staticmethod
+    def __map_yielder(loader, node, deep=False):
         for key_node, value_node in node.value:
-            key = self.construct_object(key_node, deep=deep)
-            try:
-                hash(key)
-            except TypeError as exc:
-                raise yaml.constructor.ConstructorError('while constructing a mapping',
-                    node.start_mark, 'found unacceptable key (%s)' % exc, key_node.start_mark)
-            value = self.construct_object(value_node, deep=deep)
-            mapping[key] = value
-        return mapping
+            key = loader.construct_object(key_node, deep=deep)
+            value = loader.construct_object(value_node, deep=deep)
+            yield key, value
+
+
+def yaml_loader_factory(**kwargs):
+    return partial(YAMLLoader, **kwargs)
+
+
+OrderedDictYAMLLoader = yaml_loader_factory(object_pairs_hook=OrderedDict)
+ListMapYAMLLoader = yaml_loader_factory(object_pairs_hook=list)
 
 
 class SortedTest(unittest.TestCase):
@@ -69,15 +74,15 @@ class SortedTest(unittest.TestCase):
 class UniqueTest(unittest.TestCase):
     def setUp(self):
         with open('waifu.yaml', encoding='utf8') as fh:
-            self.doc = yaml.load(fh, Loader=OrderedDictYAMLLoader)
+            self.doc = yaml.load(fh, Loader=ListMapYAMLLoader)
 
     def test_series_unique(self):
-        series = list(self.doc.keys())
+        series = list(series_name for (series_name, _) in self.doc)
         self.assertCountEqual(series, list(set(series)))
 
     def test_characters_unique(self):
-        for anime_name in self.doc:
-            chars = self.doc[anime_name]['characters']
+        for anime_name, data in self.doc:
+            chars = dict(data)['characters']
             self.assertCountEqual(chars, list(set(chars)))
 
 
