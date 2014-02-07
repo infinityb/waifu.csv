@@ -4,15 +4,6 @@ from functools import partial, reduce
 import yaml
 import yaml.constructor
 
-# why, pyyaml devs..
-
-IS_PY2K = sys.version_info < (3, 0)
-
-if IS_PY2K:
-    import codecs
-    open = codecs.open
-
-
 try:
     # included in standard lib from Python 2.7
     from collections import OrderedDict
@@ -29,6 +20,8 @@ def _comp_apply(f, g, *args, **kwargs):
 def compose(*fx):
     return reduce(partial(partial, _comp_apply), fx)
 
+
+# why, pyyaml devs..
 
 class YAMLLoader(yaml.Loader):
     def __init__(self, *args, **kwargs):
