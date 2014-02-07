@@ -21,24 +21,24 @@ def compose(*fx):
     return reduce(partial(partial, _comp_apply), fx)
 
 
+def yaml_map_yielder(loader, node, deep=False):
+    for key_node, value_node in node.value:
+        key = loader.construct_object(key_node, deep=deep)
+        value = loader.construct_object(value_node, deep=deep)
+        yield key, value
+
+
 # why, pyyaml devs..
 
 class YAMLLoader(yaml.Loader):
-    def __init__(self, *args, **kwargs):
-        object_pairs_hook = kwargs.pop('object_pairs_hook', None)
+    def __init__(self, *args, object_pairs_hook=None, **kwargs):
         super(YAMLLoader, self).__init__(*args, **kwargs)
         if object_pairs_hook is not None:
             self._object_pairs_hook = object_pairs_hook
             self.add_constructor(u'tag:yaml.org,2002:map',
-                    compose(object_pairs_hook, self.__map_yielder))
+                    compose(object_pairs_hook, yaml_map_yielder))
             self.add_constructor(u'tag:yaml.org,2002:omap',
-                    compose(object_pairs_hook, self.__map_yielder))
-    @staticmethod
-    def __map_yielder(loader, node, deep=False):
-        for key_node, value_node in node.value:
-            key = loader.construct_object(key_node, deep=deep)
-            value = loader.construct_object(value_node, deep=deep)
-            yield key, value
+                    compose(object_pairs_hook, yaml_map_yielder))
 
 
 def yaml_loader_factory(**kwargs):
