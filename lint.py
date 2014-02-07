@@ -2,7 +2,7 @@ import unittest
 import yaml
 import yaml.constructor
 
-# why, pyyaml devs.. 
+# why, pyyaml devs..
 
 try:
     # included in standard lib from Python 2.7
@@ -43,7 +43,7 @@ class OrderedDictYAMLLoader(yaml.Loader):
             key = self.construct_object(key_node, deep=deep)
             try:
                 hash(key)
-            except TypeError, exc:
+            except TypeError as exc:
                 raise yaml.constructor.ConstructorError('while constructing a mapping',
                     node.start_mark, 'found unacceptable key (%s)' % exc, key_node.start_mark)
             value = self.construct_object(value_node, deep=deep)
@@ -53,7 +53,7 @@ class OrderedDictYAMLLoader(yaml.Loader):
 
 class SortedTest(unittest.TestCase):
     def setUp(self):
-        with open('waifu.yaml') as fh:
+        with open('waifu.yaml', encoding='utf8') as fh:
             self.doc = yaml.load(fh, Loader=OrderedDictYAMLLoader)
 
     def test_series_sorted(self):
@@ -64,6 +64,21 @@ class SortedTest(unittest.TestCase):
         for anime_name in self.doc:
             chars = self.doc[anime_name]['characters']
             self.assertListEqual(chars, sorted(chars))
+
+
+class UniqueTest(unittest.TestCase):
+    def setUp(self):
+        with open('waifu.yaml', encoding='utf8') as fh:
+            self.doc = yaml.load(fh, Loader=OrderedDictYAMLLoader)
+
+    def test_series_unique(self):
+        series = list(self.doc.keys())
+        self.assertCountEqual(series, list(set(series)))
+
+    def test_characters_unique(self):
+        for anime_name in self.doc:
+            chars = self.doc[anime_name]['characters']
+            self.assertCountEqual(chars, list(set(chars)))
 
 
 if __name__ == '__main__':
