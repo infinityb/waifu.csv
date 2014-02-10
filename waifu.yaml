@@ -199,6 +199,12 @@
   - Kashiwazaki Sena
   - Mikazuki Yozora
   - Shiguma Rika
+'Buddy Complex':
+  characters:
+  - Yumihara Hina
+  - Elvira Hill
+  - Nasu Mayuka
+  - Anessa Rossetti
 'CLANNAD':
   characters:
   - Fujibayashi Kyou
@@ -260,6 +266,14 @@
 "D'Gray man":
   characters:
   - Lenalee
+'D-Frag':
+  characters:
+  - Shibasaki Roka
+  - Karasuyama Chitose
+  - Mizukami Sakura
+  - Ousawa Minami
+  - Takao
+  - Inada Tsutsumi
 'DARKER THAN BLACK':
   characters:
   - Suou Pavlichenko
@@ -624,6 +638,13 @@
   - Camille
   - Yuki Aoi
   - Yune
+'Inari, Konkon, Koi Iroha':
+  characters:
+  - Fushimi Inari
+  - Uta-no-Mitama-no-Kami
+  - Sumizome Akemi
+  - Sanjo Keiko
+  - Marutamachi Chika
 'Infinite Stratos':
   characters:
   - Cecilia Alcott
@@ -898,6 +919,11 @@
   characters:
   - Evangeline A.K. McDowell
   - Sakurazaki Setsuna
+'Mahou Sensou':
+  characters:
+  - Aiba Mui
+  - Isoshima Kurumi
+  - Shijou Momoka
 'Mahou Shoujo Lyrical Nanoha':
   characters:
   - Alicia Testarossa
@@ -980,6 +1006,13 @@
   characters:
   - Kikaijima Mogana
   - Kurokami Medaka
+'Mikakunin de Shinkoukei':
+  characters:
+  - Yonomori Kobeni
+  - Yonomori Benio
+  - Mitsumine Mashiro
+  - Moumochi Mayura
+  - Kashima Nadeshiko
 'Minami-ke':
   characters:
   - Minami Chiaki
@@ -1078,10 +1111,29 @@
   - Sakamoto(cat)
   - Shinonome Nano
   - Tachibana Misato
+'Nisekoi':
+  characters:
+  - Kirisaki Chitoge
+  - Onodera Kosaki
+  - Miyamoto Ruri
+  - Tsugumi Seishirou
+  - Tachibana Marika
+  - Onodera Haru
 'Nisemonogatari':
   characters:
   - Araragi Karen
   - Araragi Tsukihi
+'Nobunaga The Fool':
+  characters:
+  - "Jeanne Kaguya d'Arc"
+  - Ichihime
+  - Himiko
+'Nobunagan':
+  characters:
+  - Lemon
+  - Ogura Shio
+  - Jess Beckham
+  - Asao Kaoru
 'Nogizaka Haruka no Himitsu':
   characters:
   - Nogizaka Haruka
@@ -1091,6 +1143,15 @@
   - Koshigaya Komari
   - Koshigaya Natsumi
   - Miyauchi Renge
+'Noragami':
+  characters:
+  - Iki Hiyori
+'No-rin':
+  characters:
+  - Kinoshita Ringo
+  - Nakazawa Minori
+  - Yoshida Kouchou
+  - Suzuki Akari
 'Nyan Koi!':
   characters:
   - Kirishima Akari
@@ -1248,6 +1309,11 @@
   - Rita Ainsworth
   - Ruri Aiba
   - Shiina Mashiro
+'Saikin, Imouto no Yousu ga Chotto Okashiin Da Ga':
+  characters:
+  - Kanzaki Mitsuki
+  - Kotobuki Hiyori
+  - Kiritani Yukira
 'Saki':
   characters:
   - Amae Koromo
@@ -1285,6 +1351,17 @@
   - Sagimori Arata
   - Shimizudani Ryuuka
   - Takakamo Shizuno
+'Sakura Trick':
+  characters:
+  - Takayama Haruka
+  - Sonoda Yuu
+  - Minami Shizuku
+  - Noda Kotone
+  - Ikeno Kaede
+  - Rizuka Yuzu
+  - Sonoda Mitsuki
+  - Sakai Rina
+  - Otokawa Sumi
 'Samurai Flamenco':
   characters:
   - Maya Mari
@@ -1321,6 +1398,14 @@
   characters:
   - Sawachika Eri
   - Tsukamoto Yakumo
+'Sekai Seifuku: Bouryaku no Zvezda':
+  characters:
+  - Hoshimiya Kate
+  - Shikabane Itsuka
+  - Natasha
+  - Roboko
+  - Komadori Renge
+  - Shirasagi Miki
 'Seiken no Blacksmith':
   characters:
   - Lisa
@@ -1382,6 +1467,12 @@
   - Shana
   - Wilhelmina Carmel
   - Yoshida Kazumi
+'Sherlock':
+  characters:
+  - Sherlock Holmes
+  - Mycroft Holmes
+  - James Moriarty
+  - Charles Augustus Magnussen
 'Shigofumi':
   characters:
   - Chiaki
@@ -1451,6 +1542,12 @@
   - Arashiyama Hotori
   - Haribara Harue
   - Tatsuno Toshiko
+'Space Dandy':
+  characters:
+  - Space Dandy
+  - Honey
+  - Scarlet
+  - Adelie
 'Spice and Wolf':
   characters:
   - Holo
@@ -1492,6 +1589,9 @@
   - Mayta
   - Melty
   - Saaya
+'Super Sonico The Animation':
+  characters:
+  - Super Sonico
 'Suzumiya Haruhi no Yuutsu':
   characters:
   - Asahina Mikuru
@@ -1590,6 +1690,10 @@
   - Mugino Shizuri
   - Sherry Cromwell
   - Shirai Kuroko
+'To Aru Hikuushi He no Kouita':
+  characters:
+  - Claire Cruz
+  - Ariel Albus
 'To Love-Ru':
   characters:
   - Konjiki no Yami
@@ -1700,6 +1804,15 @@
   - Kuroki Rei
   - Saegusa Wakaba
   - Shinomiya Himawari
+'Wake Up, Girls!':
+  characters:
+  - Shimada Mayu
+  - Hayashida Airi
+  - Nanase Yoshino
+  - Hisami Nanami
+  - Kikuma Kaya
+  - Okamoto Miyu
+  - Tange Junko
 'Watashi ga Motenai no wa dō Kangaetemo Omaera ga Warui!':
   characters:
   - Kuroki Tomoko
@@ -1714,6 +1827,26 @@
 'Windows 7-tan':
   characters:
   - Madobe Nanami
+'Witch Craft Works':
+  characters:
+  - Kirigiri Ayaka
+  - Takamiya Kasumi
+  - Kuraishi Tanpopo
+  - Utsugi Kanna
+  - Kazari Rin
+  - Katsura Kotetsu
+  - Menowa Mei
+  - Chronoire Schwarz VI
+'Wizard Barristers: Benmashi Cecil':
+  characters:
+  - Sudo Cecil
+  - Hotaru Natsuna
+  - Tento Moyo
+  - Kabutohara Tsunomi
+  - Sasori Koromo
+  - Chono Ageha
+  - Erari Quinn
+  - Nana Genie
 'Working!':
   characters:
   - Inami Mahiru
@@ -1783,6 +1916,12 @@
   - Nogami Aoi
   - Sannomiya Shiho
   - Umegae Naomi
+'Z/X Ignition':
+  characters:
+  - Kamiyugi Ayase
+  - Kagamihara Azumi
+  - Aoba Chitose
+  - Kurashiki Sera
 '[C]: The Money of Soul and Possibility Control':
   characters:
   - Mashu
