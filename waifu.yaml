@@ -201,10 +201,10 @@
   - Shiguma Rika
 'Buddy Complex':
   characters:
-  - Yumihara Hina
+  - Anessa Rossetti
   - Elvira Hill
   - Nasu Mayuka
-  - Anessa Rossetti
+  - Yumihara Hina
 'CLANNAD':
   characters:
   - Fujibayashi Kyou
@@ -268,12 +268,12 @@
   - Lenalee
 'D-Frag':
   characters:
-  - Shibasaki Roka
+  - Inada Tsutsumi
   - Karasuyama Chitose
   - Mizukami Sakura
   - Ousawa Minami
+  - Shibasaki Roka
   - Takao
-  - Inada Tsutsumi
 'DARKER THAN BLACK':
   characters:
   - Suou Pavlichenko
@@ -641,10 +641,10 @@
 'Inari, Konkon, Koi Iroha':
   characters:
   - Fushimi Inari
-  - Uta-no-Mitama-no-Kami
-  - Sumizome Akemi
-  - Sanjo Keiko
   - Marutamachi Chika
+  - Sanjo Keiko
+  - Sumizome Akemi
+  - Uta-no-Mitama-no-Kami
 'Infinite Stratos':
   characters:
   - Cecilia Alcott
@@ -1008,11 +1008,11 @@
   - Kurokami Medaka
 'Mikakunin de Shinkoukei':
   characters:
-  - Yonomori Kobeni
-  - Yonomori Benio
+  - Kashima Nadeshiko
   - Mitsumine Mashiro
   - Moumochi Mayura
-  - Kashima Nadeshiko
+  - Yonomori Benio
+  - Yonomori Kobeni
 'Minami-ke':
   characters:
   - Minami Chiaki
@@ -1114,26 +1114,32 @@
 'Nisekoi':
   characters:
   - Kirisaki Chitoge
-  - Onodera Kosaki
   - Miyamoto Ruri
-  - Tsugumi Seishirou
-  - Tachibana Marika
   - Onodera Haru
+  - Onodera Kosaki
+  - Tachibana Marika
+  - Tsugumi Seishirou
 'Nisemonogatari':
   characters:
   - Araragi Karen
   - Araragi Tsukihi
+'No-rin':
+  characters:
+  - Kinoshita Ringo
+  - Nakazawa Minori
+  - Suzuki Akari
+  - Yoshida Kouchou
 'Nobunaga The Fool':
   characters:
-  - "Jeanne Kaguya d'Arc"
-  - Ichihime
   - Himiko
+  - Ichihime
+  - "Jeanne Kaguya d'Arc"
 'Nobunagan':
   characters:
+  - Asao Kaoru
+  - Jess Beckham
   - Lemon
   - Ogura Shio
-  - Jess Beckham
-  - Asao Kaoru
 'Nogizaka Haruka no Himitsu':
   characters:
   - Nogizaka Haruka
@@ -1146,12 +1152,6 @@
 'Noragami':
   characters:
   - Iki Hiyori
-'No-rin':
-  characters:
-  - Kinoshita Ringo
-  - Nakazawa Minori
-  - Yoshida Kouchou
-  - Suzuki Akari
 'Nyan Koi!':
   characters:
   - Kirishima Akari
@@ -1312,8 +1312,8 @@
 'Saikin, Imouto no Yousu ga Chotto Okashiin Da Ga':
   characters:
   - Kanzaki Mitsuki
-  - Kotobuki Hiyori
   - Kiritani Yukira
+  - Kotobuki Hiyori
 'Saki':
   characters:
   - Amae Koromo
@@ -1353,15 +1353,15 @@
   - Takakamo Shizuno
 'Sakura Trick':
   characters:
-  - Takayama Haruka
-  - Sonoda Yuu
+  - Ikeno Kaede
   - Minami Shizuku
   - Noda Kotone
-  - Ikeno Kaede
-  - Rizuka Yuzu
-  - Sonoda Mitsuki
-  - Sakai Rina
   - Otokawa Sumi
+  - Rizuka Yuzu
+  - Sakai Rina
+  - Sonoda Mitsuki
+  - Sonoda Yuu
+  - Takayama Haruka
 'Samurai Flamenco':
   characters:
   - Maya Mari
@@ -1398,14 +1398,6 @@
   characters:
   - Sawachika Eri
   - Tsukamoto Yakumo
-'Sekai Seifuku: Bouryaku no Zvezda':
-  characters:
-  - Hoshimiya Kate
-  - Shikabane Itsuka
-  - Natasha
-  - Roboko
-  - Komadori Renge
-  - Shirasagi Miki
 'Seiken no Blacksmith':
   characters:
   - Lisa
@@ -1420,6 +1412,14 @@
   - Sakurano Kurimu
   - Shiina Mafuyu
   - Shiina Minatsu
+'Sekai Seifuku: Bouryaku no Zvezda':
+  characters:
+  - Hoshimiya Kate
+  - Komadori Renge
+  - Natasha
+  - Roboko
+  - Shikabane Itsuka
+  - Shirasagi Miki
 'Sekirei':
   characters:
   - Asama Miya
@@ -1469,10 +1469,10 @@
   - Yoshida Kazumi
 'Sherlock':
   characters:
-  - Sherlock Holmes
-  - Mycroft Holmes
-  - James Moriarty
   - Charles Augustus Magnussen
+  - James Moriarty
+  - Mycroft Holmes
+  - Sherlock Holmes
 'Shigofumi':
   characters:
   - Chiaki
@@ -1544,10 +1544,10 @@
   - Tatsuno Toshiko
 'Space Dandy':
   characters:
-  - Space Dandy
+  - Adelie
   - Honey
   - Scarlet
-  - Adelie
+  - Space Dandy
 'Spice and Wolf':
   characters:
   - Holo
@@ -1675,6 +1675,10 @@
 'The Culture':
   characters:
   - Meatfucker
+'To Aru Hikuushi He no Kouita':
+  characters:
+  - Ariel Albus
+  - Claire Cruz
 'To Aru Kagaku no Railgun':
   characters:
   - Frenda
@@ -1690,10 +1694,6 @@
   - Mugino Shizuri
   - Sherry Cromwell
   - Shirai Kuroko
-'To Aru Hikuushi He no Kouita':
-  characters:
-  - Claire Cruz
-  - Ariel Albus
 'To Love-Ru':
   characters:
   - Konjiki no Yami
@@ -1806,12 +1806,12 @@
   - Shinomiya Himawari
 'Wake Up, Girls!':
   characters:
-  - Shimada Mayu
   - Hayashida Airi
-  - Nanase Yoshino
   - Hisami Nanami
   - Kikuma Kaya
+  - Nanase Yoshino
   - Okamoto Miyu
+  - Shimada Mayu
   - Tange Junko
 'Watashi ga Motenai no wa dō Kangaetemo Omaera ga Warui!':
   characters:
@@ -1829,24 +1829,24 @@
   - Madobe Nanami
 'Witch Craft Works':
   characters:
-  - Kirigiri Ayaka
-  - Takamiya Kasumi
-  - Kuraishi Tanpopo
-  - Utsugi Kanna
-  - Kazari Rin
-  - Katsura Kotetsu
-  - Menowa Mei
   - Chronoire Schwarz VI
+  - Katsura Kotetsu
+  - Kazari Rin
+  - Kirigiri Ayaka
+  - Kuraishi Tanpopo
+  - Menowa Mei
+  - Takamiya Kasumi
+  - Utsugi Kanna
 'Wizard Barristers: Benmashi Cecil':
   characters:
-  - Sudo Cecil
-  - Hotaru Natsuna
-  - Tento Moyo
-  - Kabutohara Tsunomi
-  - Sasori Koromo
   - Chono Ageha
   - Erari Quinn
+  - Hotaru Natsuna
+  - Kabutohara Tsunomi
   - Nana Genie
+  - Sasori Koromo
+  - Sudo Cecil
+  - Tento Moyo
 'Working!':
   characters:
   - Inami Mahiru
@@ -1907,6 +1907,12 @@
   - Ichii Yui
   - Nonohara Yuzuko
   - Okano Kei
+'Z/X Ignition':
+  characters:
+  - Aoba Chitose
+  - Kagamihara Azumi
+  - Kamiyugi Ayase
+  - Kurashiki Sera
 'Zero no Tsukaima':
   characters:
   - "Louise Valli\u00e8re"
@@ -1916,12 +1922,6 @@
   - Nogami Aoi
   - Sannomiya Shiho
   - Umegae Naomi
-'Z/X Ignition':
-  characters:
-  - Kamiyugi Ayase
-  - Kagamihara Azumi
-  - Aoba Chitose
-  - Kurashiki Sera
 '[C]: The Money of Soul and Possibility Control':
   characters:
   - Mashu
